@@ -1,0 +1,21 @@
+{
+  "name": "veevalidate-30-nuxt-example",
+  "version": "1.0.0",
+  "description": "Example on how to configure nuxt with vee-validate 3.0",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "0.3.4",
+    "nuxt": "2.8.1",
+    "reqlim": "^0.0.0",
+    "vee-validate": "3.0.0"
+  },
+  "keywords": []
+}
